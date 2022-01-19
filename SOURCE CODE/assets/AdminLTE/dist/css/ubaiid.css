@@ -1,0 +1,17 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: text;
+}
